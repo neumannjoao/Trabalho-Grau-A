@@ -1,43 +1,38 @@
 # Jogo da Vida
 
-Este é um jogo de tabuleiro virtual baseado no clássico "Jogo da Vida", onde os jogadores avançam pelo tabuleiro enfrentando diversos eventos e desafios da vida real. O jogo é desenvolvido em Python e utiliza conceitos de programação orientada a objetos para modelar o comportamento dos jogadores e as regras do jogo.
+Este é um jogo de computador baseado no famoso "Jogo da Vida", onde os jogadores enfrentam uma jornada pelo tabuleiro, encarando eventos e desafios da vida real. O jogo foi feito usando Python e usa conceitos simples de programação para fazer tudo funcionar.
 
-## Funcionalidades
+## O que o Jogo Faz
 
-### Funções do Jogo
+### Coisas que o Jogo Pode Fazer
 
-- **Rodar a Roleta**: A função `roleta()` simula o lançamento de um dado de seis lados, retornando um número aleatório entre 1 e 6.
+- **Rodar a Roda**: A função `roleta()` funciona como se fosse um dado de seis lados, dando um número entre 1 e 6.
   
-- **Regra do Dado**: A função `rolar_dado(jogador)` simula o lançamento de um dado para avançar o jogador em determinadas posições do tabuleiro. O jogador avança uma posição se tirar 1, retrocede se tirar 3 e perde uma rodada se tirar 6.
+- **Jogar o Dado**: A função `rolar_dado(jogador)` simula jogar um dado para fazer o jogador avançar no tabuleiro. O jogador avança se tirar 1, retrocede se tirar 3 e perde uma rodada se tirar 6.
 
-- **Regra do Desafio Matemático**: A função `desafio_matematico(jogador)` apresenta um desafio matemático ao jogador, como mostrar números primos até 100, somar os números de 1 a 10 ou calcular o fatorial de 5.
+- **Desafios Matemáticos**: A função `desafio_matematico(jogador)` apresenta um desafio de matemática ao jogador, como descobrir números primos até 100, somar números de 1 a 10 ou calcular o fatorial de 5.
 
-- **Regra da Formatura**: A função `escolher_curso(jogador)` permite que o jogador escolha um curso universitário para se formar.
+- **Escolher um Curso**: A função `escolher_curso(jogador)` deixa o jogador escolher um curso universitário para se formar.
 
-- **Regra dos Filhos**: A função `filhos(jogador)` simula a chegada de filhos para o jogador, podendo ser um bebê ou gêmeos.
+- **Ter Filhos**: A função `filhos(jogador)` simula o jogador tendo filhos, podendo ser um bebê ou gêmeos.
 
-- **Regra do Casamento**: A função `casou(jogador)` simula o casamento do jogador, alterando seu status para "Casado".
+- **Casamento**: A função `casou(jogador)` simula o casamento do jogador, mudando seu status para "Casado".
 
-- **Regra Ficou Famoso**: A função `ficou_famoso(jogador)` simula a fama alcançada pelo jogador.
+- **Ficar Famoso**: A função `ficou_famoso(jogador)` simula o jogador ficando famoso.
 
-- **Regra do Divórcio**: A função `divorciou(jogador)` simula o divórcio do jogador.
+- **Divórcio**: A função `divorciou(jogador)` simula o divórcio do jogador.
 
-- **Regra da Loteria**: A função `loteria(jogador)` simula a participação do jogador na loteria, com diferentes prêmios.
+- **Participar da Loteria**: A função `loteria(jogador)` simula o jogador participando da loteria, com diferentes prêmios.
 
-- **Regra da Máquina do Tempo**: A função `maquina_tempo(jogador)` simula o uso de uma máquina do tempo, resetando os dados do jogador.
+- **Viajar no Tempo**: A função `maquina_tempo(jogador)` simula o jogador usando uma máquina do tempo, resetando suas informações.
 
-- **Imprimir Status do Jogador**: A função `imprimir_status_jogador(jogador)` exibe na tela o status atual do jogador, incluindo sua posição, número de filhos, dinheiro, estado civil, entre outros.
-
-### Programa Principal
-
-- **Main**: A função `main()` é responsável por executar o jogo principal, onde os jogadores avançam pelo tabuleiro e enfrentam os eventos e desafios descritos acima.
+- **Ver Status do Jogador**: A função `imprimir_status_jogador(jogador)` mostra na tela o status atual do jogador, incluindo sua posição, número de filhos, dinheiro, estado civil, e mais.
 
 ## Como Jogar
 
-1. Execute o programa Python.
-2. Insira os nomes dos jogadores quando solicitado.
-3. Siga as instruções na tela para jogar os dados, avançar no tabuleiro e enfrentar os eventos e desafios da vida.
-4. O jogo continua até que um jogador alcance uma condição de vitória ou derrota.
+1. Abra o programa Python.
+2. Coloque os nomes dos jogadores quando pedir.
+3. Siga as instruções na tela para jogar os dados, avançar no tabuleiro e enfrentar os desafios da vida.
+4. O jogo continua até que um jogador vença ou perca.
 
 Divirta-se jogando o Jogo da Vida!
-
